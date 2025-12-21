@@ -1,9 +1,11 @@
 ---
 title: "Estimate quality"
 tags: []
-created: 2025-12-20T15:11:26.14904+00:00
-updated: 2025-12-20T15:29:15.933235+00:00
+created: "2025-12-20T15:11:26.14904+00:00"
+updated: "2025-12-20T15:29:15.933235+00:00"
+version: 1
 ---
+
 I'm about to read the given document.
 
 Task: Judge the likely quality and my likely ROI from reading it, given my interests and current knowledge.
