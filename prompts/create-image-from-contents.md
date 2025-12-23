@@ -1,8 +1,8 @@
 ---
 title: "Create image from contents"
-tags: []
+tags: ["image"]
 created: "2025-12-20T15:52:23.919612+00:00"
-updated: "2025-12-20T15:52:46.023963+00:00"
+updated: "2025-12-23T22:21:13.329Z"
 version: 1
 ---
 

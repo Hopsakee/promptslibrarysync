@@ -1,8 +1,8 @@
 ---
 title: "Improve prompt for efficient models"
-tags: []
+tags: ["chats"]
 created: "2025-12-23T15:00:04.658Z"
-updated: "2025-12-23T19:06:58.620Z"
+updated: "2025-12-23T22:21:54.823Z"
 version: 2
 ---
 

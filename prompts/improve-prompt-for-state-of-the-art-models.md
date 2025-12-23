@@ -1,8 +1,8 @@
 ---
 title: "Improve prompt for state of the art models"
-tags: []
+tags: ["chats"]
 created: "2025-12-23T14:57:10.144Z"
-updated: "2025-12-23T15:02:38.963Z"
+updated: "2025-12-23T22:21:48.549Z"
 version: 2
 ---
 
