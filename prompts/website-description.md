@@ -2,8 +2,8 @@
 title: "Website description"
 tags: ["chats"]
 created: "2025-12-24T11:54:30.002Z"
-updated: "2025-12-24T12:47:39.947Z"
-version: 4
+updated: "2025-12-24T13:04:49.800Z"
+version: 5
 ---
 
 # Persona
@@ -33,7 +33,7 @@ Output ONLY in this exact Markdown format. No extras.
 
 **webpage-url**::[URL]
 
-**description**::[One sentence]
+**description**:[One sentence]
 
 **webpage-content**::[At most 4 sentences, include 1 short quote.]
 
