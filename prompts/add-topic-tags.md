@@ -2,8 +2,8 @@
 title: "Add topic tags"
 tags: ["learning"]
 created: "2025-12-26T12:17:21.332Z"
-updated: "2025-12-26T12:17:21.332Z"
-version: 1
+updated: "2025-12-28T12:38:58.725Z"
+version: 2
 ---
 
 Your job is to categorize various types of documents including web articles, ebooks, PDFs, Twitter threads, and YouTube videos into one or more of the topic, project, and back-of-mind interest labels provided below.
@@ -88,8 +88,21 @@ BOM_Python_GUI: Documents covering building graphical user interfaces for Python
 
 """
 
-You select all categories from these lists that are covered in depth within this document. Apply topic tags without prefixes, back-of-mind tags with the BOM_ prefix. Only give the categories from these lists without any further explanation.
+You select all categories from these lists that are covered in depth within this document. 
+
+# Output format
+
+- Apply topic tags without prefixes, back-of-mind tags with the BOM_ prefix.
+- Only give the categories from these lists without any further explanation.
+- Seperate each tag with a space " "
+- Prepend each tag with a hash symbol "#"
+- Write all tags with lowercase
 
 VERY IMPORTANT: Return only the categories with their appropriate prefixes (BOM_) and nothing else.
 
-Here is the content:
+**Example output**
+
+#productivity #communication #BOM_Progress
+
+# Content
+
