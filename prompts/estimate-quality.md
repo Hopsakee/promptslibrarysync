@@ -2,8 +2,8 @@
 title: "Estimate quality"
 tags: ["learning"]
 created: "2025-12-20T15:11:26.14904+00:00"
-updated: "2025-12-23T22:21:36.566Z"
-version: 1
+updated: "2025-12-28T15:50:19.700Z"
+version: 2
 ---
 
 I'm about to read the given document.
@@ -98,17 +98,24 @@ Tier mapping (use best judgment with these anchors):
 - D Tier: <10.
 
 ## Output format (strict)
-**TIER: [S/A/B/C/D]**
-Doc Type: [A–F]
-Intrinsic Quality: X/20
-ROI: R/10
-IV Count: N
-Sum IV Score: Z
 
-**Top Instances of Value (up to 7):**
-1) [IV summary] → Depth [0–3], Endurance [+0/+1], IV Score [0–4]
-...
-
-**Why this tier**: (2 sentences max)
-**Verdict**: Read / Skim / Skip (1 line)
-**What to read instead (optional)**: If skipping, name what kind of source would be higher ROI (e.g., “a commentary”, “a survey”, “the primary paper”).
+{
+  "TIER": "[S/A/B/C/D]",
+  "Doc Type": "[A–F]",
+  "Intrinsic Quality": "X/20",
+  "ROI": "R/10",
+  "IV Count": "N",
+  "Sum IV Score": "Z",
+  "Top Instances of Value (up to 7)": [
+    {
+      "IV summary": "[IV summary]",
+      "Depth": "[0–3]",
+      "Endurance": "[+0/+1]",
+      "IV Score": "[0–4]"
+    }
+    // ... up to 7 such objects total
+  ],
+  "Why this tier": "(2 sentences max)",
+  "Verdict": "Read / Skim / Skip (1 line)",
+  "What to read instead (optional)": "If skipping, name what kind of source would be higher ROI (e.g., \"a commentary\", \"a survey\", \"the primary paper\")."
+}
