@@ -2,8 +2,8 @@
 title: "Estimate quality"
 tags: ["learning"]
 created: "2025-12-20T15:11:26.14904+00:00"
-updated: "2026-01-02T12:33:31.783Z"
-version: 4
+updated: "2026-01-02T12:41:56.904Z"
+version: 5
 ---
 
 I'm about to read the given document.
@@ -98,9 +98,9 @@ Tier mapping (use best judgment with these anchors):
 
 ## Output format (strict)
 
-IMPORTANT: use the following exact JSON structure. Don't add anything else to your response. Strictly follow this JSON structure.
+IMPORTANT: use the following exact JSON structure as given between ``` and ```. Don't add anything else to your response. Strictly follow this JSON structure. Only output the JSON structure itself, do not output the surrounding ``` marks.
 
-```json
+```
 {
   "TIER": "[S/A/B/C/D]",
   "Doc Type": "[A–F]",
