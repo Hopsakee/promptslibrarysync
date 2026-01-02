@@ -2,8 +2,8 @@
 title: "Estimate quality"
 tags: ["learning"]
 created: "2025-12-20T15:11:26.14904+00:00"
-updated: "2026-01-02T09:48:59.089Z"
-version: 3
+updated: "2026-01-02T12:33:31.783Z"
+version: 4
 ---
 
 I'm about to read the given document.
@@ -98,6 +98,9 @@ Tier mapping (use best judgment with these anchors):
 
 ## Output format (strict)
 
+IMPORTANT: use the following exact JSON structure. Don't add anything else to your response. Strictly follow this JSON structure.
+
+```json
 {
   "TIER": "[S/A/B/C/D]",
   "Doc Type": "[A–F]",
@@ -118,3 +121,4 @@ Tier mapping (use best judgment with these anchors):
   "Verdict": "Read / Skim / Skip (1 line)",
   "What to read instead (optional)": "If skipping, name what kind of source would be higher ROI (e.g., \"a commentary\", \"a survey\", \"the primary paper\")."
 }
+```
