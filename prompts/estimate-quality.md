@@ -2,8 +2,8 @@
 title: "Estimate quality"
 tags: ["learning"]
 created: "2025-12-20T15:11:26.14904+00:00"
-updated: "2025-12-28T15:50:19.700Z"
-version: 2
+updated: "2026-01-02T09:48:59.089Z"
+version: 3
 ---
 
 I'm about to read the given document.
@@ -23,7 +23,6 @@ Assume the reader is already beyond beginner level in the document’s domain.
 - Not “how to start in an hour.”
 - Knows fundamentals and common vocabulary.
 - Wants depth, conceptual clarity, and well-supported claims.
-If the document’s domain or intent is unclear, ask exactly 1 clarifying question, then proceed.
 
 ## Step 1 — Classify the Document (1 label)
 Choose exactly one:
