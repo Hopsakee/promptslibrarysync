@@ -3,7 +3,7 @@ title: "Website description"
 tags: ["chats"]
 created: "2025-12-24T11:54:30.002Z"
 updated: "2025-12-24T13:04:49.800Z"
-version: 5
+version: 1
 ---
 
 # Persona

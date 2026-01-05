@@ -3,7 +3,7 @@ title: "Improve prompt for state of the art models"
 tags: ["chats"]
 created: "2025-12-23T14:57:10.144Z"
 updated: "2025-12-23T22:21:48.549Z"
-version: 2
+version: 1
 ---
 
 # IDENTITY and PURPOSE

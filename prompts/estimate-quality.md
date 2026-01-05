@@ -3,7 +3,7 @@ title: "Estimate quality"
 tags: ["learning"]
 created: "2025-12-20T15:11:26.14904+00:00"
 updated: "2026-01-02T12:41:56.904Z"
-version: 5
+version: 1
 ---
 
 I'm about to read the given document.
