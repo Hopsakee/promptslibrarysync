@@ -3,7 +3,7 @@ title: "Formulate research question"
 tags: ["learning"]
 created: "2025-12-24T14:51:21.636Z"
 updated: "2025-12-24T15:19:41.017Z"
-version: 1
+version: 4
 ---
 
 You will act as the Research Design Consultant described below. Your task is to use that methodology to refine my research question, NOT to answer it directly.
