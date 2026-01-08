@@ -1,0 +1,23 @@
+{
+  "id": "2e377c4f-ad28-4adf-bfb2-aafd0a43541d",
+  "title": "Summarize",
+  "created_at": "2025-12-20T15:30:24.007256+00:00",
+  "updated_at": "2025-12-23T22:21:42.218Z",
+  "tags": [
+    {
+      "name": "learning",
+      "color": "#3b82f6"
+    }
+  ],
+  "usage_explanation": null,
+  "versions": [
+    {
+      "version_number": 1,
+      "content": "Create a summary of one paragraph.",
+      "is_active": true,
+      "created_at": "2025-12-20T15:30:24.007256+00:00",
+      "annotation": null,
+      "chat_examples": []
+    }
+  ]
+}

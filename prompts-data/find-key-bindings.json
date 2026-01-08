@@ -1,0 +1,23 @@
+{
+  "id": "fd49afcc-25a7-4500-bb9b-2e412b01312f",
+  "title": "Find key bindings",
+  "created_at": "2026-01-07T08:08:49.139Z",
+  "updated_at": "2026-01-07T08:08:49.139Z",
+  "tags": [
+    {
+      "name": "app",
+      "color": "#8b5cf6"
+    }
+  ],
+  "usage_explanation": null,
+  "versions": [
+    {
+      "version_number": 1,
+      "content": "# Task\n\nFind all default PC key bindings for the game that is provided by the user. Return ONLY the complete bindings in the required JSON format.\n\n# Requirements\n\n1. Research official sources and reliable gaming guides for the complete default PC keyboard/mouse controls\n2. Exclude camera look controls (Look Up/Down/Left/Right, mouse look)\n3. Include ALL other actions - no dropping\n4. Use short descriptive notes for each action's function in the game\n\n# required JSON Format (exact structure required)\n\n```json\n{\n  \"bindings\": [\n    {\n      \"name\": \"Move Forward\",\n      \"category\": \"movement\", \n      \"defaultKey\": \"W\",\n      \"modifier\": \"hold\",\n      \"notes\": \"Moves character forward\"\n    }\n  ]\n}\n\n# Output\n\nReturn ONLY the JSON above in a code block. No explanations.",
+      "is_active": true,
+      "created_at": "2026-01-07T08:08:49.139Z",
+      "annotation": null,
+      "chat_examples": []
+    }
+  ]
+}
