@@ -3,7 +3,7 @@ title: "Improve prompt for efficient models"
 tags: ["chats"]
 created: "2025-12-23T15:00:04.658Z"
 updated: "2025-12-23T22:21:54.823Z"
-version: 1
+version: 2
 ---
 
 # IDENTITY and PURPOSE

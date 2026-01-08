@@ -3,7 +3,7 @@ title: "Add topic tags"
 tags: ["learning"]
 created: "2025-12-26T12:17:21.332Z"
 updated: "2025-12-28T12:38:58.725Z"
-version: 1
+version: 2
 ---
 
 Your job is to categorize various types of documents including web articles, ebooks, PDFs, Twitter threads, and YouTube videos into one or more of the topic, project, and back-of-mind interest labels provided below.
@@ -105,3 +105,4 @@ VERY IMPORTANT: Return only the categories with their appropriate prefixes (BOM_
 #productivity #communication #BOM_Progress
 
 # Content
+
