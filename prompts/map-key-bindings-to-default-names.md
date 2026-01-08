@@ -3,7 +3,7 @@ title: "Map key bindings to default names"
 tags: ["app"]
 created: "2026-01-07T08:46:07.665Z"
 updated: "2026-01-07T10:29:24.939Z"
-version: 3
+version: 1
 ---
 
 # Task
