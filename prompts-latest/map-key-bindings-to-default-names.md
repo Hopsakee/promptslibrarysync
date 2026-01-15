@@ -2,9 +2,31 @@
 
 Map game-specific keybinding names to standardized FPS schema given in the "Dummy Schema Reference". Using the JSON provided below for the "Game specific keybindings".
 
-# Dummy Schema Reference
+Map to closest matching "name" from the "Dummy Schema Reference" (check groupedActions if needed).
+Be sure you don't map multiple keys to the same "name". Expand the "name" instead. For example:
+If a game has two grenade types the player can throw, create an extra binding "name" with a logical and descriptive extension of the closest matching "name" for the second option, like so:
 
-Map to closest matching "name" from this schema (check groupedActions if needed):
+```json
+    {
+      "name": "Throw Grenade",
+      "category": "combat",
+      "groupedActions": ["Grenade", "Lethal Equipment", "Ordinance"],
+      "defaultKey": "",
+      "modifier": "",
+      "notes": "Standard bind for throwing lethal explosives."
+    },
+    {
+      "name": "Throw Grenade Special",
+      "category": "combat",
+      "groupedActions": [],
+      "defaultKey": "",
+      "modifier": "",
+      "notes": "Standard bind for throwing special grenade."
+    },
+```
+
+
+# Dummy Schema Reference
 
 ```json
 {
@@ -226,20 +248,36 @@ Map to closest matching "name" from this schema (check groupedActions if needed)
       "notes": "Shows current mission or match status; sometimes doubles as inventory."
     },
     {
-      "name": "Push to Talk",
+      "name": "Voice Team",
       "category": "communication",
-      "groupedActions": ["Voice Chat"],
+      "groupedActions": ["Push to Talk team", "Voice Chat Team"],
       "defaultKey": "",
       "modifier": "",
-      "notes": "Hold to transmit voice; may be moved to Alt or mouse button to avoid melee conflict."
+      "notes": "Hold to transmit voice to team."
     },
     {
-      "name": "Text Chat",
+      "name": "Voice All",
       "category": "communication",
-      "groupedActions": ["All Chat", "Team Chat"],
+      "groupedActions": ["Push to Talk all", "Voice Chat All"],
       "defaultKey": "",
       "modifier": "",
-      "notes": "Opens text chat box and sends message when pressed again."
+      "notes": "Hold to transmit voice to all."
+    },
+    {
+      "name": "Text Chat Team",
+      "category": "communication",
+      "groupedActions": ["Team Chat"],
+      "defaultKey": "",
+      "modifier": "",
+      "notes": "Opens text chat box and sends message to team."
+    },
+    {
+      "name": "Text Chat All",
+      "category": "communication",
+      "groupedActions": ["All Chat"],
+      "defaultKey": "",
+      "modifier": "",
+      "notes": "Opens text chat box and sends message to all."
     }
   ]
 }
@@ -251,6 +289,7 @@ Map to closest matching "name" from this schema (check groupedActions if needed)
 2. If no good match exists, keep original game name
 3. Preserve all actions, categories, keys, modifiers, notes exactly
 4. Never drop actions
+5. Never map multiple actions and keys to the same dummy name, create new unmapped actions instead
 
 # Output Format (3 sections required)
 
