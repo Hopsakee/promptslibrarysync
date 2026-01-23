@@ -23,7 +23,6 @@ Find all default PC key bindings for the game that is provided by the user. Retu
     }
   ]
 }
-```
 
 # Output
 
