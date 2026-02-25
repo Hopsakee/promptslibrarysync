@@ -1,0 +1,23 @@
+{
+  "id": "ff3549b1-7155-4016-b534-6720719ed52d",
+  "title": "Diagram a codebase",
+  "created_at": "2026-02-25T18:10:51.473Z",
+  "updated_at": "2026-02-25T18:10:51.473Z",
+  "tags": [
+    {
+      "name": "programming",
+      "color": "#ef4444"
+    }
+  ],
+  "usage_explanation": null,
+  "versions": [
+    {
+      "version_number": 1,
+      "content": "Explore this codebase and create two Mermaid diagrams with documentation:\n\n**1. Architecture Diagram (flowchart TB)**\n- Read every module in the main package directory to understand what each does\n- Read pyproject.toml, README, and any design/PRD docs for context\n- Classify each module: 🟢 Done (real logic), 🟡 Partial/Broken (incomplete, broken imports, TODOs), 🔴 Stub (placeholder only)\n- Create a top-to-bottom flowchart with:\n  - External systems at the top (files, APIs, databases)\n  - Modules grouped into subgraphs by layer (ingestion, storage, domain, web/API, entry)\n  - Arrows showing data flow with labels\n  - Color-coded status using classDef:\n    - done: fill:#1a5c1a,stroke:#2ecc71,color:#fff\n    - partial: fill:#7d5a00,stroke:#f39c12,color:#fff\n    - stub: fill:#7a1a1a,stroke:#e74c3c,color:#fff\n    - ext: fill:#1a3a5c,stroke:#3498db,color:#fff\n\n**2. Data Model Diagram (erDiagram)** — if the project has database models/dataclasses\n- Show all entities with fields, types, PK/FK/UK annotations\n- Show relationships with correct cardinality\n- Include entities referenced in code but not yet defined as models\n\n**Output**: Create a `docs_md/` folder with two markdown files:\n- `docs_md/architecture.md`: Diagram + prose explaining each layer, a module status table, key issues found, and recommended next steps\n- `docs_md/datamodel.md`: ER diagram + entity descriptions, relationship tables (implemented vs planned), and known schema issues\n\nUse ```mermaid syntax (no curly braces) in the markdown files for GitHub compatibility.\n\nRender both diagrams inline so I can see them now.\n\nAlso create Jupyter notebooks that contain the same content:\n- All prose in markdown cells\n- Mermaid diagrams in markdown cells using ```{mermaid} syntax (for quarto rendering)\n- A final code cell that reads the notebook's own markdown cells and writes to docs_md/,\n  converting ```{mermaid} to ```mermaid for GitHub compatibility\n- This keeps notebooks and markdown files in sync: run the notebook to regenerate the markdown\n",
+      "is_active": true,
+      "created_at": "2026-02-25T18:10:51.473Z",
+      "annotation": null,
+      "chat_examples": []
+    }
+  ]
+}
