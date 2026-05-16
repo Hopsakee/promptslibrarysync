@@ -1,5 +1,6 @@
 Write a README.md for this project. Explain what it does, what it purpose is, which problem it solves and who the likely target audience is. 
-State explicitly if it is possible to install this without the Lovable platform. If this can be done, explain how someone can install and use it without the Lovable platform. 
+State explicitly if it is possible to install this without the Lovable platform. If this can be done, explain how someone can install and use it without the Lovable platform.
+Include a "Project info" section near the top of the README with the exact line: **URL**: https://lovable.dev/projects/<PROJECT_ID> Replace <PROJECT_ID> with the Lovable project ID (a UUID like b05e5e82-827d-45e6-b814-5d7282c8465f). Keep the URL on its own line, unshortened, no markdown link wrapping — just the raw https://lovable.dev/projects/<uuid> URL. This is required so external tools can detect the project's Lovable origin.
 Make explicit that this project is vibe-coded with Lovable and checked for safety issues with the inbuild lovable security checks. But that the git owner, being me, didn't manually check the code. 
 Add MIT license. Add a CONTRIBUTING.md.
 
