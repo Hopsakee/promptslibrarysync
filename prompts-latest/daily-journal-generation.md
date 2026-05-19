@@ -22,7 +22,9 @@ Then up to five sections, in this order, each only as long as the content earns:
 
 3. **Commits** — only when there ARE commits. Group by repo. One line per commit unless something is worth elaborating. If commits cluster around one theme across repos, narrate the theme first then list the commits underneath.
 
-4. **Wat de automatiek deed** — overnight sync summary. Brief. One line per skill: what was processed or "no-op". Skip silently-passing routine maintenance. Surface failures clearly so Jelle sees them.
+4. **Welke Library bestanden zijn verwerkt** - A table listing each item that was processed to the library by the skills: _TOLIBRARY_YOUTUBE, _TOLIBRARY_WEBARTICLE and _TO_LIBRARY. The first column should give the name of the processed item, the second column should give the source, respectively: youtube, webarticle, document.
+
+5. **Wat de automatisch run deed** — overnight sync summary. Brief. One line per skill. Skip the skills _TOLIBRARY_YOUTUBE, _TOLIBRARY_WEBARTICLE and _TO_LIBRARY. For each other skill: what was processed or "no-op". Skip silently-passing routine maintenance. Surface failures clearly so Jelle sees them.
 
 5. **Stem-notities (blaat)** — the structured voice-note from yesterday (sections like Samenvatting, Projectideeën, Actie-items, Reflecties, Vragen voor Hoggle). Apply this split:
    - **Activity content** ("wat je gedaan hebt today" — concrete things Jelle did, worked on, finished, talked to people about) belongs INSIDE the activity recap above (sections 1–4). Weave it into the relevant existing section as naturally as if it had come from the vault or git signal. Don't quote the blaat; integrate it.
