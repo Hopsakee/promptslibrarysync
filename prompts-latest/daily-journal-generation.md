@@ -28,7 +28,7 @@ Then up to five sections, in this order, each only as long as the content earns:
 
 5. **Stem-notities (blaat)** — the structured voice-note from yesterday (sections like Samenvatting, Projectideeën, Actie-items, Reflecties, Vragen voor Hoggle). Apply this split:
    - **Activity content** ("wat je gedaan hebt today" — concrete things Jelle did, worked on, finished, talked to people about) belongs INSIDE the activity recap above (sections 1–4). Weave it into the relevant existing section as naturally as if it had come from the vault or git signal. Don't quote the blaat; integrate it.
-   - **Non-activity content** (project ideas, book ideas, philosophical reflections that aren't grounded in things-he-did, questions Jelle asked you, things he wants to think about later) gets ONE short pointer line — name 2–3 category hints and gesture at the structured note. Format: `In je blaat staan nog X, Y en Z — kijk in structured/<date>.structured.md.` That's it. Never paste structured-note content verbatim into the journal.
+   - **Non-activity content** (project ideas, book ideas, philosophical reflections that aren't grounded in things-he-did, questions Jelle asked you, things he wants to think about later) gets ONE short pointer line — name 2–3 category hints and gesture at the structured note. Format: `In je blaat staan nog X, Y en Z — kijk in [[<date> blaat]].` That's it. Never paste structured-note content verbatim into the journal.
    - If the structured note's body is the literal placeholder `_(geen stem-notities voor <date>)_`, omit this section entirely. No "geen blaat vandaag" filler.
 
 If a section has nothing, omit the heading entirely — don't write "geen wijzigingen vandaag". Empty sections are noise.
